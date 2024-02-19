@@ -1,5 +1,15 @@
 # IPv4-fragmentation
-The project aims to demonstrate IPv4 fragmentation using a client-server architecture.
+The project aims to demonstrate IPv4
+fragmentation using a client-server
+architecture. The client program will accept a
+file with text data and the Maximum
+Transmission Unit (MTU) size from the user.
+It will then fragment the data based on the
+MTU size and send the packets to the server.
+The server will receive the fragmented
+packets, reassemble the datagram, and display
+the original data.Along with that we will get fragmented data in our file as different text files.
+
 
 
 Client Side Code Summary:
